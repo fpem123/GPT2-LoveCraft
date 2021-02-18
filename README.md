@@ -39,11 +39,15 @@ Fine tuning data: [Kaggle](https://www.kaggle.com/bennijesus/lovecraft-fiction)
 ### Input example
 
 
+    curl -X POST "https://master-gpt2-love-craft-fpem123.endpoint.ainize.ai/lovecraft" -H "accept: application/json" -H "Content-Type: multipart/form-data" -F "text=one day" -F "length=50"
     
 
 ### Output example
 
 
+    {
+      "0": "ond day\" which fell on a thursday, may 11, 1916, we landed at a sloping mud bank on the small island just north of the mainville dock. the next day a swift gale wrecked the roof and great chimney, leaving the"
+    }
 
 
 ## * With swagger *
