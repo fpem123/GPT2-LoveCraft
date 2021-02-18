@@ -46,7 +46,7 @@ Fine tuning data: [Kaggle](https://www.kaggle.com/bennijesus/lovecraft-fiction)
 
 
     {
-      "0": "ond day\" which fell on a thursday, may 11, 1916, we landed at a sloping mud bank on the small island just north of the mainville dock. the next day a swift gale wrecked the roof and great chimney, leaving the"
+      "0": "one day yalden, being not above the credulousness of his day and planet, went into the cave and discovered the treasure. it was in the form of a very ancient tiara, and yalden was sure it was stolen from a temple"
     }
 
 
