@@ -39,8 +39,15 @@ Fine tuning data: [Kaggle](https://www.kaggle.com/bennijesus/lovecraft-fiction)
 ### Input example
 
 
-    curl -X POST "https://master-gpt2-love-craft-fpem123.endpoint.ainize.ai/lovecraft" -H "accept: application/json" -H "Content-Type: multipart/form-data" -F "text=one day" -F "length=50"
-    
+    curl -X 'POST' \
+    'https://feature-add-torch-serve-gpt-2-server-gkswjdzz.endpoint.ainize.ai/infer/GPT2-large_LoveCraft' \
+    -H 'accept: */*' \
+    -H 'Content-Type: application/json' \
+    -d '{
+    "text": "One day,",
+    "num_samples": 1,
+    "length": 300
+    }'
 
 ### Output example
 
