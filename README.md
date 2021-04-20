@@ -5,6 +5,8 @@
 
 This project generate Love craft fiction using GPT-2 model.
 
+You can download the model here: [Hugging face](https://huggingface.co/HScomcom/gpt2-lovecraft)
+
 Fine tuning data: [Kaggle](https://www.kaggle.com/bennijesus/lovecraft-fiction)
 
 ### Model information
